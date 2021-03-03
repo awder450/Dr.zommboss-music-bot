@@ -4,7 +4,7 @@ const MusicClient = require("discord-music-core")
 const musicPlayer = new MusicClient("Youtube Api key")
 
 client.on("message", message => {
-  let prefix = 'your prefix'
+  let prefix = 'sl/'
   if (!message.content.startsWith(prefix) || message.author.bot) return;
 
 	const args = message.content.slice(prefix.length).split(/ +/);
@@ -29,4 +29,4 @@ client.on("message", message => {
   }
 })
 
-client.login("Your Discord Bot token")
+client.login("ODA3MTgzOTg1OTg1MzIzMDI5.YB0Sqw.dxz-RBouX4Ab3Ah3xXWeJPxnEnU")
